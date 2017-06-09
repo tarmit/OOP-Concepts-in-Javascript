@@ -1,0 +1,25 @@
+// Defining a constructor function
+function pet(name, age){
+	this.name = name;
+  this.age = age;
+  
+  this.sayName = sayName;
+  this.sayAge = sayAge;
+  
+}
+
+// Defining included fucntions
+function sayName(){
+  	console.log("The name of the pet is " + this.name);
+}
+
+function sayAge(){
+	console.log("He is " + this.age + " year old");
+}
+
+// Creating instance of pet object
+var tidus = new pet("Tidus", 1);
+
+// Calling functions
+tidus.sayName();
+tidus.sayAge();
