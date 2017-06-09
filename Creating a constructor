@@ -1,6 +1,6 @@
 // Defining a constructor function
 function pet(name, age){
-	this.name = name;
+  this.name = name;
   this.age = age;
   
   this.sayName = sayName;
