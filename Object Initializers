@@ -1,0 +1,8 @@
+// Creating object initializer 
+Pet = {name: "Tidus", age: 1, sayName: sayName};
+
+function sayName(){
+	console.log("His name is " + this.name);
+}
+
+Pet.sayName();
