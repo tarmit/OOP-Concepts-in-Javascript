@@ -1,0 +1,12 @@
+
+// Defining function
+function Person(name){
+	this.name = name;
+}
+// Defining prototype 
+Person.prototype.hello = function() {
+	console.log("Hello my name is " + this.name);
+}
+
+var tidus = new Person("Tidus");
+tidus.hello();
