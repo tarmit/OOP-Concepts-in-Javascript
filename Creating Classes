@@ -1,0 +1,17 @@
+class Person{
+	constructor(name,age){
+  	this.name = name;
+    this.age = age;
+  }
+  
+  getName(){
+  	return(this.name);
+  }
+  getAge(){
+  	 return(this.age);
+  }
+}
+
+var Tara = new Person("Tara", 23);
+console.log(Tara.getName());
+console.log(Tara.getAge());
